@@ -145,3 +145,44 @@ button:hover{
     font-size: 1.5rem;
     color: rgba(111, 159, 87, 0.606);;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        height: 50vh;
+        width: 70vw;
+        position: absolute;
+        top: calc( (100vh - 50vh )/2);
+        left: calc((100vw - 70vw)/2);
+        flex-direction: column;
+    }
+    .textarea-cont{
+        width: 100%;
+    }
+    .priority-colors-cont{
+        height: 35%;
+        width: 100%;
+        background-color: #4b4b4b;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .priority-color{
+        height: 100%;
+        border-radius: 10px;
+    }
+    .ticket-cont{
+        height: 20rem;
+        width: 25rem;
+        background-color: aqua;
+        border-radius: 15px;
+        overflow: hidden;
+        
+    }
+
+    nav{
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
