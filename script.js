@@ -42,7 +42,7 @@ container.addEventListener('keydown', (e)=>{
     let key = e.key; 
     let ticketColor = containerPriorityColor; 
     let ticketTask = textArea.value; 
-    if(key ==='Shift' || key==='Enter'){
+    if(key==='Enter'){
         setContainerDefault(); 
         addTicket(ticketColor, ticketTask); 
     }   
